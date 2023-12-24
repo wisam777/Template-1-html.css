@@ -393,7 +393,66 @@ padding-left: 120px;
     
  }
 /*fin à propos*/
+.section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    position: relative;
+    
+    
+    
+}
+.section{
+    border: 3px solid var(--maine-color);
+    padding: 5px 0 10px 0;
+}
+.section h1{
+    margin-top: 20px;
+    margin-bottom: 0px;
+    color: var(--maine-color);
+    text-align: center;
+    font-size: 40px;
+    
+}
+.section input  {
+    margin-top: 40px;
+    padding: 20px;
+    height: 50px;
+    width: 400px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
 
+}
+.section textarea{
+    margin-top: 20px;
+    height: 200px;
+    width: 800px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.section .submit{
+    width: 200px;
+    height: 50px;
+font-weight: bold;
+position: relative;
+left: 300PX;
+color: var(--maine-color);
+font-size: larger;
+border-radius: 20PX;
+padding: 0;
+margin-top: 10PX;
+
+
+}
+
+
+/* début contact */
+ 
 
 
 
